@@ -6,16 +6,23 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "eslint": "eslint .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "expo": "~48.0.4",
     "expo-status-bar": "~1.4.4",
+    "prettier": "^2.8.4",
     "react": "18.2.0",
     "react-native": "0.71.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "eslint": "^8.35.0",
+    "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2"
   },
   "private": true
 }
