@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Lint files
-        run: npm run lint
+        run: npm run eslint
